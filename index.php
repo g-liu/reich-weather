@@ -29,13 +29,13 @@
 	</div>
 
 	<audio id="it-aint-gonna-rain">
-		<source src="audio/it-aint-gonna-rain.mp3" type="audio/mpeg" />
-		<source src="audio/it-aint-gonna-rain.ogg" type="audio/ogg" />
+		<source src="audio/it-aint-gonna-rain.mp3" type="audio/mpeg" preload="auto" />
+		<source src="audio/it-aint-gonna-rain.ogg" type="audio/ogg" preload="auto" />
 	</audio>
 
 	<audio id="its-gonna-rain">
-		<source src="audio/its-gonna-rain.mp3" type="audio/mpeg" />
-		<source src="audio/its-gonna-rain.ogg" type="audio/ogg" />
+		<source src="audio/its-gonna-rain.mp3" type="audio/mpeg" preload="auto" />
+		<source src="audio/its-gonna-rain.ogg" type="audio/ogg" preload="auto" />
 		Sorry, your browser does not support HTML5 audio.
 	</audio>
 
