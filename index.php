@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
 	<title>Steve Reich tells the weather</title>
 	
+	<link type="text/css" rel="stylesheet" href="css/reset.css" />
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 	<script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
 </head>
@@ -15,33 +16,33 @@
 
 	<input type="button" id="convert" value="Convert" />
 	<input type="button" id="shut-up" value="SHUT UP!" />
-	
+
 	<main>
-	<div id="weather-wrapper">
-		<h1 id="weather">Steve Reich Weather Forecast</h1>
+		<div id="weather-wrapper">
+			<h1 id="weather">Steve Reich Weather Forecast</h1>
 
-		<section id="weather-info">
-			<p><span id="when"></span></p>
-			<p><span id="chance"></span>% chance</p>
-			<p><span id="intensity"></span> <span id="intensity-units"></span> of rain</p>
-			<input type="hidden" id="intensity-precise" />
-		</section>
-	</div>
+			<section id="weather-info">
+				<p><span id="when"></span></p>
+				<p><span id="chance"></span>% chance</p>
+				<p><span id="intensity"></span> <span id="intensity-units"></span> of rain</p>
+				<input type="hidden" id="intensity-precise" />
+			</section>
+		</div>
 
-	<audio id="it-aint-gonna-rain">
-		<source src="audio/it-aint-gonna-rain.mp3" type="audio/mpeg" preload="auto" />
-		<source src="audio/it-aint-gonna-rain.ogg" type="audio/ogg" preload="auto" />
-	</audio>
+		<audio id="it-aint-gonna-rain">
+			<source src="audio/it-aint-gonna-rain.mp3" type="audio/mpeg" preload="auto" />
+			<source src="audio/it-aint-gonna-rain.ogg" type="audio/ogg" preload="auto" />
+		</audio>
 
-	<audio id="its-gonna-rain">
-		<source src="audio/its-gonna-rain.mp3" type="audio/mpeg" preload="auto" />
-		<source src="audio/its-gonna-rain.ogg" type="audio/ogg" preload="auto" />
-		Sorry, your browser does not support HTML5 audio.
-	</audio>
+		<audio id="its-gonna-rain">
+			<source src="audio/its-gonna-rain.mp3" type="audio/mpeg" preload="auto" />
+			<source src="audio/its-gonna-rain.ogg" type="audio/ogg" preload="auto" />
+			Sorry, your browser does not support HTML5 audio.
+		</audio>
 
-	<div id="map-wrapper">
+		<div id="map-wrapper">
 
-	</div>
+		</div>
 	</main>
 
 	<!-- stuff initially hidden -->
