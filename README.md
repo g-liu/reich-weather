@@ -1,5 +1,5 @@
-Reich Weather
-=============
+Steve Reich tells the weather
+=============================
 
 In 1965, American composer Steve Reich wrote a composition called *It's Gonna Rain*.
 The piece was a major landmark for the development of the minimalist style of music.
