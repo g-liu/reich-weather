@@ -6,11 +6,18 @@ The piece was a major landmark for the development of the minimalist style of mu
 
 According to [Wikipedia](http://en.wikipedia.org/wiki/It%27s_Gonna_Rain):
 <blockquote>
-The source material of It's Gonna Rain consists entirely of a tape recording made in 1964 at San Francisco's Union Square. In the recording, an African American Pentecostal preacher, Brother Walter, rails about the end of the world, while accompanying background noises, including the sound of a pigeon taking flight, are heard. The piece opens with the story of Noah, and the phrase "It's Gonna Rain" is repeated and eventually looped throughout the first half of the piece.
+The source material of *It's Gonna Rain* consists entirely of a tape recording made in 1964 at San Francisco's Union Square. In the recording, an African American Pentecostal preacher, Brother Walter, rails about the end of the world, while accompanying background noises, including the sound of a pigeon taking flight, are heard. The piece opens with the story of Noah, and the phrase "It's Gonna Rain" is repeated and eventually looped throughout the first half of the piece.
 </blockquote>
 
 This app uses short excerpts form Reich's composition to tell the weather. More specifically,
 it lets the user know whether it will rain or not at their current location.
+
+Usage
+-----
+
+You will need your own (Forecast.IO API Key)[http://developer.forecast.io/] to run this application.
+
+Copy and paste your API key into `include/API_KEY.php`. Replace the part that says `YOUR API KEY HERE` with your actual API key.
 
 Fair Use notice
 ---------------
@@ -23,4 +30,3 @@ To Do
 * Allow user to select a location
 
 Feel free to fork and pull-request!
-

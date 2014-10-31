@@ -2,6 +2,7 @@
 	ini_set('display_errors',1);
 	error_reporting(E_ALL);
 	require_once 'ForecastIO.php';
+	require_once 'API_KEY.php';
 	
 	/*
 	 * At what percentage chance of rain should we say "It's gonna rain?"
@@ -29,7 +30,7 @@
 	/*
 	 * Your API key
 	 */
-	define("API_KEY", "135d270dd14c75d8c52528314e0725b9");
+	define("API_KEY", $API_KEY);
 
 	define("LAT", isset($_REQUEST['lat']) ? $_REQUEST['lat'] : 0);
 	define("LONG", isset($_REQUEST['lon']) ? $_REQUEST['lon'] : 0);
