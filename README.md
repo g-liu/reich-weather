@@ -15,16 +15,16 @@ it lets the user know whether it will rain or not at their current location.
 Usage
 -----
 
-You will need your own (Forecast.IO API Key)[http://developer.forecast.io/] to run this application.
+You will need your own [Forecast.IO API Key](http://developer.forecast.io/) to run this application.
 
-Copy and paste your API key into `include/API_KEY.php`. Replace the part that says `YOUR API KEY HERE` with your actual API key.
+Copy and paste your API key into `inc/API_KEY.php`. Replace the part that says `YOUR API KEY HERE` with your actual API key.
 
 Fair Use notice
 ---------------
 
 This document may contain copyrighted material whose use has not been specifically authorized by the copyright owner. The author of this web application, Geoffrey Liu, is making the composition *It's Gonna Rain* by Steve Reich available for the sole purpose of entertainment. Furthermore, only short excerpts of the composition are used, and the author earns no profit whatsoever from the distribution or exhibition of this web application. The author believes that this constitutes a 'fair use' of the copyrighted material as provided for in section 107 of the U.S. Copyright Law. If you wish to use this copyrighted material for purposes of your own that go beyond 'fair use,' you must obtain permission from the copyright owner.
 
-To Do
+To do
 -----
 * Write tests
 * Allow user to select a location
